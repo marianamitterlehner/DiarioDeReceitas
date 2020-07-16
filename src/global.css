@@ -10,3 +10,11 @@ body{
     background: F7EDE2;
     -webkit-font-smoothing: antialiased;
 }
+h1{
+    font-family: 'Alice', serif;
+    font-size: 30px;
+}
+
+p{
+    font-size: 14px;
+}

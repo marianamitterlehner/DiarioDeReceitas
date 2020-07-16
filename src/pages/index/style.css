@@ -1,54 +1,68 @@
 .index-container{
-    padding: 50px;
+    padding: 0;
     margin: 0;
 }
+
 .header{
     display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 25px 0;
+    height: auto;
 }
 
-.header .left h1{
-    font-family: 'Alice', serif;
-    font-size: 25px;
+.header .center  {
+    padding:10px;
 }
-.header .center {
-    margin-left: 30%;
+.header .center input{
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 25px;
+    background-color: #C4C4C4;
+    color: #787878;
     padding: 10px;
 }
-.header .center textarea{
+.header .center h1{
     font-size: 14px;
+    width: 100%;
+    height: 30px;
     background: #C4C4C4;
     border:none;
     border-radius: 10px;
 }
+
 .header .right a{
     font-size: 14px;
     padding-left: 15px;
-
 }
 .header .right {
-    margin-left: 29%;
     padding: 10px;
+    width: auto;
+    height: auto;
+    float: right;
 }
+
+
 .box-container{
     background-color:#FCB9AE;
     border-radius: 80px;
     height: auto;
     width: auto;
     display: flex;
-    margin: 50px;
+    margin: 30px;
     padding-left: 50px;
     padding-right: 50px;
     align-items: center;
-
 }
 .box-container h1{
-    font-size: 45px;
+    font-size: 50px;
     width: auto;
     padding: 40px;
 }
 .box-container img{
-    width: 500px;
-    height: 270px;
+    width: 40%;
+    height: 24%;
     margin: 20px;
     margin-left: 10px;
     align-items: center;
@@ -56,41 +70,45 @@
 }
 
 .spotlight-container{
-    margin: 50px;
+    margin: 0 80px;
     align-items: center;
 }
-
+.spotlight-container h1{
+    font-size: 25px;
+}
 .recipe-container {
-    margin: 30px;
-    padding-left: 30px;
+    margin: 20px;
     align-items: center;
+    justify-content: space-around;
     display: flex;
 }
-
-.recipe-container h2{
-    font-size: 23px;
-    align-items: center;
-}
-.recipe-container img{
-    width: 250px;
-    height: 150px;
-}
 .recipe{
-    margin-left: 70px;
+    margin: 10px;
 }
+.recipe h2{
+    font-size: 18px;
+    text-align: left;
+    margin: 5px;
+}
+.recipe img{
+    width: 240px;
+    height: 140px;
+    border-radius: 15px;
+}
+
 .sub-container{
     display: flex;
     width: auto;
 }
 .sub-container h3{
-    font-size: 15px;
+    font-size: 14px;
     padding: 10px;
     margin-left: 50px;
 }
 .sub{
     display: flex;
 }
-.sub h3{
+.sub h3{  
     margin: 0;
 }
 .sub img{
@@ -98,3 +116,84 @@
     width: 15px;
     height: 15px;
 }
+
+.category-container{
+    margin: 0 80px;
+    align-items: center;
+}
+
+.category-container h1{
+    font-size: 25px;
+}
+
+.category-div-container{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.category{
+    text-align: center;
+    border-radius: 15px;
+    background-color: #EDC279;
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+}
+.category img{
+    margin: 10px auto;
+    width: 60px;
+    height: 60px;
+}
+
+.category p{
+    margin:10px;
+    font-size: 16px;
+}
+
+.contact-container{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 30px;
+    background-color: #FCB9AE;
+    display: block;
+    text-align: center;
+}
+.contact-container h1{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.contact-container form{
+    align-items: center;
+    display: block;
+}
+.contact-container input {
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    margin: 10px 0;
+    padding: 10px;
+}
+.contact-container button {
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 80px;
+    background-color: #F28482;
+    color: #ffffff;
+    margin-left: 22%;
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 25px 0;
+    height: auto;
+    text-align: center;
+}
+
+
