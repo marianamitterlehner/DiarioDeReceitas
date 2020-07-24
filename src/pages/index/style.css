@@ -1,3 +1,41 @@
+
+.login-container{
+    background-color: #F7EDE2;
+    margin: 50px 40%;
+    padding:40px;
+    justify-content: space-evenly;
+    width: 382px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    position: absolute; 
+    border: solid #787878 1px; 
+    z-index: 9;
+    visibility: hidden;
+}
+.login-container h1{
+    color: #84A59D;
+}
+
+.login-container input{
+    border: none;
+    border-radius: 5px;
+    background-color: #F5CAC3 ;
+    width: 300px;
+    height: 30px;
+    margin: 10px 0;
+    padding: 15px;
+    display: block;
+}
+.login-container button {
+    margin: 10px; 
+}
+.login-container img{
+    width: 15px;
+    height: 15px;
+    margin: 15px;
+}
+
 .index-container{
     padding: 0;
     margin: 0;
@@ -33,16 +71,16 @@
 }
 
 .header .right a{
-    font-size: 14px;
-    padding-left: 15px;
+    font-size: 12px;
+    margin-right: 10px;
 }
+
 .header .right {
     padding: 10px;
     width: auto;
     height: auto;
     float: right;
 }
-
 
 .box-container{
     background-color:#FCB9AE;
@@ -178,12 +216,6 @@
     padding: 10px;
 }
 .contact-container button {
-    border: none;
-    border-radius: 10px;
-    height: 35px;
-    width: 80px;
-    background-color: #F28482;
-    color: #ffffff;
     margin-left: 22%;
 }
 

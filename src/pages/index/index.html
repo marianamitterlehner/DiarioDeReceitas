@@ -2,10 +2,28 @@
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Alice&family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="stylesheet" type="text/css" href="../../global.css" />
+        <link rel="stylesheet" type="text/css" href="../../global.css" /> 
+     <script language="JavaScript" type="text/javascript">
+            function login(showhide){
+                if(showhide == "show"){
+                    document.getElementById('popupbox').style.visibility="visible";
+                }else if(showhide == "hide"){
+                    document.getElementById('popupbox').style.visibility="hidden"; 
+                }
+            }
+        </script>
     </head>
 
     <body>
+        <div id="popupbox" class="login-container">
+            <a href="javascript:login('hide');"><img src="../../figures/fechar.svg" alt=""></a>
+            <h1>Login</h1>
+            <form name="login" action="" method="post">
+                <input type="text" placeholder="E-mail">
+                <input type="text" placeholder="Senha">
+                <button>Logar</button>
+            </form>
+        </div>
         <div class="index-container">
             <div class="header">
                 <div class="left">
@@ -15,8 +33,8 @@
                     <input type="text" placeholder="Pesquisa">
                 </div>
                 <div class="right">
-                    <a href="">Login</a>
-                    <a href="">Sing Up</a> 
+                    <a href="javascript:login('show');">Login</a> <!--abrir popup para login-->
+                    <button>Sing Up</button>
                 </div>   
             </div>
             <div class="box-container">
